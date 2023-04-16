@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My First Web Page</title>
+ 
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="madhan kumar">
+    <meta name="description" content="My first web page
+    done by madhan kumar">
+    <link rel="icon" href="chick.png" type="image/x-icon">
+    <link rel="stylesheet" href="main.css" type="text/css">
+    
+</head>
+<body>
+    <h1>Hello World</h1>
+    <nav>
+        <ul>
+            <li>
+                <a href="#html">learning html</a>
+            </li>
+            <li>
+                <a href="#vacation">About</a>
+            </li>
+            
+        </ul>
+    </nav>
+    <p>
+        This is my first web page.
+    </p>
+    <hr>
+    <section id="html">
+    <h2>
+        This is my second heading.
+        <br>
+        <p>
+            i am madhan kumar.
+            <ol>
+                <li>
+                    This is my first list item.
+                </li>
+                <li>
+                    This is my second list item.
+                </li>
+            </ol>
+        </p>
+        <img src="estate.jpg" alt="estate image for sale" loading="lazy" width="300" height="300">
+        <figure>
+            <figcaption>For sale</figcaption>
+        </figure>
+    </br>
+    </h2>
+    </section>
+    <hr>
+    <article id="vacation">
+    <section>
+    <h3>
+        This is my third heading.
+        <dl>
+            <dt>
+                north pole
+            </dt>
+            <dd>
+                i hear this <strong>cold!</strong>
+            </dd>
+            <dt>
+                south pole
+            </dt>
+            <dd>
+                i hear this <strong>warm!</strong>
+            </dd>
+        </dl>
+    </h3>
+    <table>
+        <tr>
+            <td>
+                <time datetime="8:00">8am</time>-<time datetime="10:00">10am</time>
+            </td>
+            <td>write code</td>
+        </tr>
+        <tr>
+            <td>
+                <time datetime="10:00">10am</time>-<time datetime="10:00">12pm</time>
+            </td>
+            <td>lunch</td>
+        </tr>
+    </table>
+</section>
+    </article>
+<article>
+    <form action="https://httpbin.org/get" method="get">
+    <fieldset>
+        <legend>personal info</legend>
+    <p>
+        <label for="password">password</label>
+        <input type="password" id="password" placeholder="your secret" required></input>
+    </p>
+    <p>
+        <label for="coffee">fav coffee</label>
+        <select  name="coffee" id="coffee">
+            <option value="latte">latte</option>
+            <option value="cappuccino">cappuccino</option>
+            <option value="mocha">mocha</option></select>
+    </p>
+    <p>
+        <label for="coffee">fav coffee</label>
+        <input  name="coffee" id="coffee" list="coffe list">
+        <datalist id="coffe list">  <option value="latte">latte</option>
+            <option value="cappuccino">cappuccino</option>
+            <option value="mocha">mocha</option>
+        </datalist>
+        </input>
+    </p>
+</fieldset>
+</form>
+</article>
+
+    <hr>
+    <p>to learn more about me <a href="about.html">beautiful</a></p>
+</body>
+</html>
