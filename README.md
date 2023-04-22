@@ -2,7 +2,7 @@
 Hello all,I have created the website using html.This is my first webpage created.I have simply created the beginer level of webpage.
 I just created the web page for testing my skills.How iam well in html.
 
-##Screen Recording of Web
+## Screen Recording of Web
 
 
 
